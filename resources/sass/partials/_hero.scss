@@ -1,0 +1,47 @@
+.hero{
+	display:flex;
+	flex-wrap:wrap;
+	height: 530px;
+	background:url('/resources/img/hero-background.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0;
+	padding: 5% 13%;
+	color:white;
+	h1{
+		margin-top: 1em;
+		margin-bottom: 1em;
+		color:#f85fc4;
+	}
+
+	h3{
+		margin-bottom:2em;
+	}
+	button{
+		padding:1em;
+		border:none;
+		background:white;
+		color:#9d60a6;
+		margin-right:2em;
+		font-size: 18px;
+	}
+	.btn_join{
+		background:#8a3996;
+		color:white;
+	}
+
+}
+
+.hero-logo{
+	position: relative;
+	top:50px;
+	left:205px;
+	width: 435px;
+	height: 165px;
+	background:url('/resources/img/logo_lbb_03.png');
+	background-size:cover;
+	// max-width: 100%;
+	// height: auto !important;
+
+}
+

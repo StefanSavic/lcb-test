@@ -1,0 +1,214 @@
+.navigation{
+	background: black;
+	color:white;
+	font-family:Avenir;
+	padding:0;
+	margin:0;
+}
+
+.navigation-top{
+	padding:0.5em;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	padding-left: 4em;
+	.logo{
+		background:url('/resources/img/logo_lbb_03.png');
+		background-size:cover;
+		background-repeat:no-repeat;
+		padding:30px 75px;
+		margin:auto 0;
+		
+	}
+
+	.top__nav__wrap{
+		position: relative;
+		display: flex;
+		flex-wrap:wrap;
+		margin:auto 0;
+		list-style-type: none;
+		li{
+			display: flex;
+			margin-bottom: 10px;
+			margin-right: 4em;
+			cursor: pointer;
+			h5{
+				margin:auto;
+			}
+		}
+		li:last-child{
+			margin-left: -15px;
+		}
+	}
+	.top__nav{
+		display:flex;
+		min-width: 50px;
+		margin:auto 0;
+		font-size: 16px;
+		span{
+			margin:auto;
+			margin-left:1em;
+		}
+
+		.members-online{
+			height: 27px;
+			background:url('/resources/img/members-online.png');
+		}
+		.join-the-club{
+			height: 22px;
+			background:url('/resources/img/join-the-club.png');
+		}
+		.search{
+			width: 23px;
+			background:url('/resources/img/search.png');
+			background-size:contain;
+			background-repeat:no-repeat;
+		}
+		.language{
+			height: 27px;
+			background:url('/resources/img/language.png');
+			background-size:contain;
+			background-repeat:no-repeat;
+		}
+
+		.language__flag{
+			width: 14px;
+			height:11px;
+			display: inline-block;
+			margin-right: 0.5em;
+			background: url('/resources/img/english-flag.jpg');
+		}
+		.icon{
+			padding-right: 2em;
+			margin:auto;
+			width:31px;
+			height:31px;
+			background-size:contain;
+			background-repeat:no-repeat;
+		}
+	}
+
+	.admin-component{
+		display: flex;
+		justify-content:space-around;
+		margin:auto 0;
+		padding-right: 4em;
+	
+	}
+
+	.admin-component__avatar{
+		width: 62px;
+		height: 62px;
+		border:2px solid #e43355;
+		border-radius:50%;
+		background: url('/resources/img/avatar.jpg');
+		background-position: top;
+		margin-right: 1em;
+
+	}
+
+	.admin-component__header{
+		display: flex;
+		flex-direction: column;
+		margin:auto;
+		span{
+			color:#ee3558;
+			margin-left:0;
+		}
+	}
+	
+}
+
+
+// bottom menu
+nav{
+	ul{
+		border:1px solid #3a3b3d;
+		flex-wrap:wrap;
+		margin:0;
+		padding:0;
+		display: flex;
+		padding: 0 160px;
+		
+	}
+	li{
+		background: black;
+		// border-right:1px solid #3a3b3d;
+		// border-left:1px solid #3a3b3d;
+		// height: 77px;
+		border:1px solid #3a3b3d;
+		padding:1.6em;
+		flex:1;
+		display: flex;
+		min-width: 202px;
+		a{
+			font-size:20px;
+			text-transform:capitalize;
+			margin:auto;
+			&:hover{
+				text-decoration: none;
+				color:white;			
+			}
+			span{
+				margin-right: 1em;
+			}
+		}
+	}
+}
+
+.bingo a{
+	color:#c754d8;
+}
+.bonus a{
+	color:#ff8039;
+}
+.games a{
+	color:#4adcd7;
+}
+.quickstart a{
+	color:#e9469e;
+}
+.real-money a{
+	color:#ffbfb7;
+}
+.rewards a{
+		color:#94d670;
+}
+.news a{
+		color:#655cc2;
+}
+
+.news__icon{
+	background:url('/resources/img/news.png');
+}
+.trophy__icon{
+}
+.bingo__icon{
+	background:url('/resources/img/bingo.png');
+}
+.bonus__icon{
+	background:url('/resources/img/bonus.png');
+}
+.games__icon{
+	background:url('/resources/img/games.png');
+}
+.quickstart__icon{
+	background:url('/resources/img/quickstart.png');
+}
+.real-money__icon{
+	background:url('/resources/img/real-money.png');
+}
+.rewards__icon{
+	background:url('/resources/img/rewards.png');
+}
+
+.nav__icon{
+	margin: auto;
+	// margin-right:-1em;
+	height: 34px;
+	width:34px;
+	margin:0 1em;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+

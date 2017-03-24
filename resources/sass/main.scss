@@ -1,0 +1,22 @@
+@import 'node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import 'partials/_navigation';
+@import 'partials/_hero';
+@import 'partials/_stats';
+@import 'partials/_slot';
+@import 'partials/_mediaqueries';
+
+@font-face {
+    font-family: Avenir;
+    src: url(/resources/fonts/AvenirLTPro-Medium.otf);
+}
+body{
+    font-family: Avenir;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+}

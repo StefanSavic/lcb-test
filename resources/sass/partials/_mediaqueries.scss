@@ -1,0 +1,48 @@
+@media(max-width:1700px){
+	.hero{
+		height: auto;
+	}
+	.hero-logo{
+		margin-left:0;
+		width:400px;
+		height: 148px;
+		top:1em;
+		left: 2em;
+	}
+	.btn_join{
+		margin-top: 1em;
+	}
+	.exlusive-promotions-wrap{
+		margin-bottom:2em;
+	}
+	.featured-bingo-sites-wrap{
+		margin-bottom:2em;
+	}
+	.bingo-table-item__comments__icon{
+		flex: 1;
+	}
+}
+@media(max-width:800px){
+	nav ul{
+		padding: 0;
+	}
+	.hero-logo{
+		top:1em;
+		left: 0;
+		width: 200px;
+		height: 75px;
+	}
+	.exlusive-promotions-wrap{
+		flex-grow:1; 
+		margin-bottom:2em;
+	}
+	.featured-bingo-sites-wrap{
+		flex-grow:1; 
+		margin-bottom:2em;
+	}
+	.bingo-table-item__comments{
+		margin-bottom: 1em;
+		padding:1em 0;
+	}
+
+}
